@@ -1,0 +1,2 @@
+# fe-weather
+show weather
