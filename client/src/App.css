@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.current-weather-cards {
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.cities-weather-cards {
+  display: flex;
+}
+
+.weather-list__content {
+  display: flex;
+  margin: 8px 8px 0;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  max-height: 280px;
+  padding-bottom: 16px;
+}
+
+,weather-list__element {
+  margin: 8px 0;
+}

@@ -1,0 +1,8 @@
+.weather-card__day-header {
+  font-weight: 600;
+  margin: 8px 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 130px;
+}

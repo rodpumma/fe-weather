@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardList /> <CardList /> matches snapshop 1`] = `
+<div
+  className="weather-list__content"
+>
+  <div
+    className="weather-list__element"
+  >
+    <pre
+      className="weather-card__day-header"
+      data-testid="title"
+    >
+      test card name one
+    </pre>
+    <div
+      className="weather-card__content"
+    >
+      <div
+        className="weather-card__card"
+      >
+        <span
+          className="weather-card__day-title"
+          data-testid="day-title"
+        >
+          vienes
+        </span>
+        <img
+          alt="Weather icon"
+          className="weather-card__icon"
+          src="weather-image.png"
+        />
+        <div
+          className="weather-card__temp-content"
+        >
+          <pre
+            className="weather-card__temp-label"
+          >
+            min
+          </pre>
+          <span
+            className="weather-card__min-temp"
+            data-testid="min-temp"
+          >
+            12
+            °
+          </span>
+          <pre
+            className="weather-card__temp-label"
+          >
+            max
+          </pre>
+          <span
+            data-testid="max-temp"
+          >
+            17
+            °
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="weather-list__element"
+  >
+    <pre
+      className="weather-card__day-header"
+      data-testid="title"
+    >
+      test card name two
+    </pre>
+    <div
+      className="weather-card__content"
+    >
+      <div
+        className="weather-card__card"
+      >
+        <span
+          className="weather-card__day-title"
+          data-testid="day-title"
+        >
+          vienes
+        </span>
+        <img
+          alt="Weather icon"
+          className="weather-card__icon"
+          src="weather-image.png"
+        />
+        <div
+          className="weather-card__temp-content"
+        >
+          <pre
+            className="weather-card__temp-label"
+          >
+            min
+          </pre>
+          <span
+            className="weather-card__min-temp"
+            data-testid="min-temp"
+          >
+            12
+            °
+          </span>
+          <pre
+            className="weather-card__temp-label"
+          >
+            max
+          </pre>
+          <span
+            data-testid="max-temp"
+          >
+            17
+            °
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
