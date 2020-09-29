@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title /> <Title /> matches snapshop 1`] = `
+<pre
+  className="weather-card__day-header"
+  data-testid="title"
+>
+  City Name
+</pre>
+`;

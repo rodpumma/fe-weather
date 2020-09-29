@@ -1,0 +1,29 @@
+{
+  "name": "fe-weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rodpumma/fe-weather.git",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "axios": "^0.20.0",
+    "bunyan-logger": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-bunyan-logger": "^1.3.3",
+    "nodemon": "^2.0.4",
+    "rxjs": "^6.6.3",
+    "should": "^13.2.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "start": "node --inspect=5858 -r ts-node/register index.ts",
+    "start:watch": "nodemon",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "supertest": "^5.0.0"
+  }
+}
